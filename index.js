@@ -34,7 +34,9 @@ const playTileOnSide = (tileToPlay, gameTable, playerHand) => {
 	const tilePosition = playerHand.indexOf(tileToPlay);
 	// Check if we can play on the left
 	const tableTileLeft = gameTable[0][0];
+
 	const tableTileRight = gameTable[gameTable.length - 1][0];
+
 	if (tileToPlay[0] === tableTileLeft || tileToPlay[1] === tableTileLeft) {
 		// Reverse the played tile if needed
 		if (tileToPlay[1] !== tableTileLeft) {
