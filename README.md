@@ -2,8 +2,8 @@
 
 # Dominoes-Game  
 
-This project was build with 
-## Vanilla Javascript .
+This project was build with ## Vanilla Javascript .
+
 
 ## Quick Start
 npm install to install dependencies In the project directory.
